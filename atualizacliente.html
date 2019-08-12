@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+	<html lang="pt-br">
+
+		<head>
+
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    
+      <title>Atualizar cliente</title>
+
+  
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+
+		</head>
+
+<body>
+  <nav class="red" role="navigation">
+    <div class="nav-wrapper container">
+      <a id="logo-container" href="index.html" class="brand-logo">Página Inicial</a>
+    </div>
+  </nav>
+
+  <div id="index-banner" class="parallax-container">
+    <div class="section no-pad-bot">
+      <div class="container">
+        <br><br>
+        <h1 class="header center teal-text text-lighten-2">Sapataria RA</h1>
+        <div class="row center">
+          <h5 class="header col s12 light">Cuidando dos seus sapatos como cuidamos dos nossos.</h5>
+        </div>
+       
+        <br><br>
+
+      </div>
+    </div>
+    <div class="parallax"><img src="sapato.jpg" alt="sapato" width="100%"></div>
+  </div>
+
+
+  <div class="container">
+    <div class="section">
+
+      <!--   Icon Section   -->
+      <div class="row">
+        <div class="col s12 m4">
+          <div class="icon-block">
+            <h2 class="center brown-text"><i class="material-icons"></i></h2>
+            <h5 class="center">Atualização de Cliente</h5>
+
+            <form method="post" action="atualiza-cliente.php">
+        <br>*CPF:
+          <br><input type="text" name="cpf" size="30" maxlength="11"><br>
+        <br>*Cliente:
+          <br><input type="text" name="cliente" size="30" maxlength="45"><br>
+        <br>*Telefone:
+          <br><input type="text" name="telefone" size="30" maxlength="13"><br>
+        <br>*Endereço:
+          <br><input type="text" name="endereco" size="30"><br>
+        <br>*E-mail:
+          <br><input type="email" name="email" size="30"><br>
+
+              <h7>Campos marcados com * são obrigatórios</h7><br>
+
+            <br><input type="submit" value="Salvar">
+            <input type="reset" name="Redefinir">
+
+      </form>
+
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+
+  <div class="parallax-container valign-wrapper">
+    <div class="section no-pad-bot">
+      <div class="container">
+        <div class="row center">
+         
+        </div>
+      </div>
+    </div>
+    <div class="parallax"><img src="sapatos.jpg" alt="sapatos" width="100%"></div>
+  </div>
+
+  <div class="container">
+    <div class="section">
+
+      <div class="row">
+        <div class="col s12 center">
+          <h3><i class="mdi-content-send brown-text"></i></h3>
+          <h4>Nossos Serviços:</h4>
+          <ul class="left-align light">
+            <li><p><b>Troca de sola;</b></p>
+            <li><p><b>Reformas de sapatos;</b></p>
+            <li><p><b>Trabalhos de recostura;</b></p>
+            <li><p><b>Engraxate;</b></p>
+          </ul>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+
+  <div class="parallax-container valign-wrapper">
+    <div class="section no-pad-bot">
+      <div class="container">
+        <div class="row center">
+        
+        </div>
+      </div>
+    </div>
+    <div class="parallax"><img src="sap_feminino.jpg" alt="sapato feminino" width="100%"></div>
+  </div>
+
+  <footer class="page-footer teal">
+    <div class="container">
+      <div class="row">
+        <div class="col l6 s12">
+          <h5 class="white-text">Sapataria RA</h5>
+          <p class="grey-text text-lighten-4">Sempre inovando e buscando novas tecnologias para atender nossos clientes cada vez mais exigentes e entregá-los serviços e produtos com toda qualidade desejada.</p>
+
+
+        </div>
+  
+        <div class="col l3 s12">
+          <h5 class="white-text">Connect</h5>
+          <ul>
+            <li><a class="white-text" href="https://www.google.com/gmail/" target="_blank">Envie um E-mail</a></li>
+            <li><a class="white-text" href="https://www.facebook.com/kelvyn.israel" target="_blank">Siga nas redes sociais</a></li>
+            <li><a class="white-text">Telefone: (14) 99666-6130</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="footer-copyright">
+      <div class="container">
+      Made by <a class="brown-text text-lighten-3" href="https://www.facebook.com/kelvyn.israel" target="_blank">Kelvyn israel</a>
+      </div>
+    </div>
+  </footer>
+
+
+  <!--  Scripts-->
+  <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+  <script src="js/materialize.js"></script>
+  <script src="js/init.js"></script>
+
+  </body>
+</html>
